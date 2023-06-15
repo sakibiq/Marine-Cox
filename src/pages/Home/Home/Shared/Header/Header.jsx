@@ -101,7 +101,7 @@ const Header = () => {
         <div className='px-24 py-4  space-y-1 sm:px-3'>
           <a
             href='#'
-            className='text-black hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium bg-white'
+            className='text-black hover:bg-gray-700 hover:text-white block px-3 py-2  rounded-md text-base font-medium bg-white'
           >
             Home
           </a>

@@ -7,7 +7,7 @@ import img4 from '../../assets/slide4.jpg';
 
 const Banner = () => {
   return (
-    <Carousel className='-mt-20 max-h-screen  mb-20 '>
+    <Carousel className='-mt-20 max-h-screen    xl:mb-24 '>
       <div>
         <img src={img1} />
       </div>
