@@ -40,12 +40,12 @@ const Header = () => {
               >
                 Our Services
               </Link>
-              <a
-                href='#'
-                className='text-black hover:bg-gray-700 hover:text-white px-4 py-2 rounded-md text-sm font-medium bg-white'
+              <Link
+                to='/contact'
+                className='text-black hover:bg-gray-700 hover:text-white block px-3 py-2  rounded-md text-base font-medium bg-white'
               >
                 Contact Us
-              </a>
+              </Link>
               {/* <div className='relative inline-block'>
                 <select
                   className='text-black hover:bg-gray-700 hover:text-white rounded-md text-sm font-medium border-none'
@@ -108,40 +108,32 @@ const Header = () => {
         </div>
       </div>
       <div className={classNames(isOpen ? 'block' : 'hidden', 'md:hidden')}>
-        <div className='px-24 py-4  space-y-1 sm:px-3'>
-          <a
+        <div className='px-24 py-4  space-y-3 sm:px-3'>
+          <Link
+            to='/'
             href='#'
             className='text-black hover:bg-gray-700 hover:text-white block px-3 py-2  rounded-md text-base font-medium bg-white'
           >
             Home
-          </a>
-          <a
-            href='#'
-            className='text-black hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium bg-white'
+          </Link>
+          <Link
+            to='/about'
+            className='text-black hover:bg-gray-700 hover:text-white block px-3 py-2  rounded-md text-base font-medium bg-white'
           >
-            About
-          </a>
-          <div className='relative inline-block'>
-            <select
-              className='text-black hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-base font-medium border-none bg-white'
-              defaultValue=''
-            >
-              <option value='' disabled hidden>
-                Services
-              </option>
-              <option value='#'>Boat Painting</option>
-              <option value='#'>Boat Polishing</option>
-              <option value='#'>Anti Fouling</option>
-              <option value='#'>Overralling</option>
-              <option value='#'>GEL Coat Finishing</option>
-            </select>
-          </div>
-          <a
-            href='#'
-            className='text-black hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium bg-white'
+            About Us
+          </Link>
+          <Link
+            to='/services'
+            className='text-black hover:bg-gray-700 hover:text-white block px-3 py-2  rounded-md text-base font-medium bg-white'
+          >
+            Our Services
+          </Link>
+          <Link
+            to='/contact'
+            className='text-black hover:bg-gray-700 hover:text-white block px-3 py-2  rounded-md text-base font-medium bg-white'
           >
             Contact Us
-          </a>
+          </Link>
         </div>
       </div>
     </nav>

@@ -9,12 +9,19 @@ import service6 from '../../assets/service6.jpeg';
 
 const Services = () => {
   return (
-    <div className=' text-center mb-10 mt-32'>
-      <h1 className='text-5xl mb-10'>Our Services</h1>
+    <div className=' text-center mb-10 md:mt-32'>
+      <div className='bg-slate-50 h-32 rounded-md relative'>
+        <h2 className='text-center text-4xl md:text-6xl text-orange-300 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2'>
+          Our Services
+        </h2>
+        <p className='text-center text-6xl md:text-8xl text-gray-100 '>
+          Our Services
+        </p>
+      </div>
 
       <Tabs>
         <TabList>
-          <div className='flex justify-center'>
+          <div className='grid md:flex justify-center'>
             <Tab>
               <button
                 type='button'
@@ -68,7 +75,7 @@ const Services = () => {
 
         <TabPanel>
           <div className='flex justify-center gap-16 mt-6'>
-            <div className='w-full  bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 grid grid-cols-3'>
+            <div className='w-full  bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 grid grid-cols-2 md:grid-cols-3'>
               <a href='#'>
                 <img
                   className='p-8 rounded-t-lg'
@@ -180,37 +187,6 @@ const Services = () => {
           </div>
         </TabPanel>
       </Tabs>
-
-      {/* <div className='grid grid-cols-2 gap-2'>
-        <div>
-          <img
-            className='h-auto max-w-full rounded-lg'
-            src='https://flowbite.s3.amazonaws.com/docs/gallery/square/image-1.jpg'
-            alt=''
-          />
-        </div>
-        <div>
-          <img
-            className='h-auto max-w-full rounded-lg'
-            src='https://flowbite.s3.amazonaws.com/docs/gallery/square/image-2.jpg'
-            alt=''
-          />
-        </div>
-        <div>
-          <img
-            className='h-auto max-w-full rounded-lg'
-            src='https://flowbite.s3.amazonaws.com/docs/gallery/square/image-3.jpg'
-            alt=''
-          />
-        </div>
-        <div>
-          <img
-            className='h-auto max-w-full rounded-lg'
-            src='https://flowbite.s3.amazonaws.com/docs/gallery/square/image-4.jpg'
-            alt=''
-          />
-        </div>
-      </div> */}
     </div>
   );
 };

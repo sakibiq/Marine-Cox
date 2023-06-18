@@ -21,7 +21,14 @@ const Recentwork = () => {
 
   return (
     <div className='mt-10'>
-      <h1 className='text-4xl text-center mb-6 underline'>Recent Works</h1>
+      <div className='bg-slate-50 h-32 rounded-md relative'>
+        <h2 className='text-center text-4xl md:text-6xl text-orange-300 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2'>
+          Recent Works
+        </h2>
+        <p className='text-center text-6xl md:text-8xl text-gray-100 '>
+          Recent Works
+        </p>
+      </div>
       <div className='grid grid-cols-2 md:grid-cols-3 gap-4 '>
         <div>
           <img
