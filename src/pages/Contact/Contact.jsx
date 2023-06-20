@@ -34,7 +34,7 @@ const Contact = () => {
               <span>Midul Barua</span>{' '}
             </p>
             <p className='text-center pt-4'>
-              Phone: <br /> +971 0526577060 <br /> +971 563206204
+              Phone: <br /> +971 0526577060 <br /> +971 0563206204
             </p>
           </div>
         </div>
