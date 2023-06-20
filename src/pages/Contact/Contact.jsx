@@ -19,15 +19,24 @@ const Contact = () => {
         <div className='pb-10 md:pb-2 '>
           <img className='w-10 mx-auto pb-10' src={address} alt='' />
           <p>
-            <br /> Al Jadaf, Dubai.
+            <br /> Cox Marine Boats & Ships Maintenance Services L.L.C 164, 2nd
+            Floor, Al Jadaf. Dubai, UAE.
           </p>
         </div>
         <div className='pb-10 md:pb-2'>
           <img className='w-10 mx-auto pb-10' src={phone} alt='' />
 
-          <p>
-            Midul Barua <br /> +971526320624 <br /> +971563206204
-          </p>
+          {/* <p>
+            Midul Barua <br /> +971 0526577060 <br /> +971 563206204
+          </p> */}
+          <div>
+            <p className='text-center text-xl'>
+              <span>Midul Barua</span>{' '}
+            </p>
+            <p className='text-center pt-4'>
+              Phone: <br /> +971 0526577060 <br /> +971 563206204
+            </p>
+          </div>
         </div>
         <div>
           <img className='w-10 mx-auto pb-10' src={email} alt='' />

@@ -25,14 +25,16 @@ const CompanyDetails = () => {
                   </h5>
                 </a>
                 <p className='mb-3  text-gray-700 dark:text-gray-400 md:px-20 mt-4 '>
-                  Cox Marine Boats and Ships Maintenance Service is one of the
-                  leading yacht maintenance service provider in Jadaf, Dubai,
-                  UAE. The company inspires its employees to be the best they
-                  can be. We will continue to engage in sustainable practises
-                  and anticipate the needs of our customers. Quality,
-                  experience, manpower, and customer service are what
-                  differentiates us and makes us experts in catering to any
-                  client with any type of yacht.
+                  <span className='font-bold'>
+                    Cox Marine Boats and Ships Maintenance Service
+                  </span>{' '}
+                  is one of the leading yacht maintenance service provider in
+                  Jadaf, Dubai, UAE. The company inspires its employees to be
+                  the best they can be. We will continue to engage in
+                  sustainable practises and anticipate the needs of our
+                  customers. Quality, experience, manpower, and customer service
+                  are what differentiates us and makes us experts in catering to
+                  any client with any type of yacht.
                 </p>
               </div>
             </div>
@@ -45,10 +47,17 @@ const CompanyDetails = () => {
                     Contact
                   </h5>
                 </a>
-                <p className='mb-3 font-normal text-gray-700 dark:text-gray-400'>
-                  Phone: Midul Barua +971526320624 +971563206204 Mail
-                  coxmarin2023@gmail.com
-                </p>
+                <h1 className='mb-3 font-normal text-gray-700  dark:text-gray-400'>
+                  <p className='text-center text-xl'>
+                    <span>Midul Barua</span>{' '}
+                  </p>
+                  <p className='text-center pt-4'>
+                    Phone: <br /> +971 0526577060 <br /> +971 563206204
+                  </p>
+                  <p className='text-center pt-4'>
+                    Mail: <br /> coxmarin2023@gmail.com
+                  </p>
+                </h1>
               </div>
             </div>
 
@@ -82,20 +91,20 @@ const CompanyDetails = () => {
                 <Link to='/services'>
                   <button
                     type='button'
-                    class='text-black mt-4 bg-orange-300 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800'
+                    className='text-black mt-4 bg-orange-300 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800'
                   >
                     Our Services
                     <svg
                       aria-hidden='true'
-                      class='w-5 h-5 ml-2 -mr-1'
+                      className='w-5 h-5 ml-2 -mr-1'
                       fill='currentColor'
                       viewBox='0 0 20 20'
                       xmlns='http://www.w3.org/2000/svg'
                     >
                       <path
-                        fill-rule='evenodd'
+                        fillRule='evenodd'
                         d='M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z'
-                        clip-rule='evenodd'
+                        clipRule='evenodd'
                       ></path>
                     </svg>
                   </button>
@@ -110,7 +119,8 @@ const CompanyDetails = () => {
                   </h5>
                 </a>
                 <p className='mb-3 font-normal text-gray-700 dark:text-gray-400 text-center'>
-                  Al Jadaf, Dubai.
+                  Cox Marine Boats & Ships Maintenance Services L.L.C 164, 2nd
+                  Floor, Al Jadaf. Dubai, UAE.
                 </p>
               </div>
             </div>
